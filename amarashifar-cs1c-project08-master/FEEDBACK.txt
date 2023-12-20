@@ -1,0 +1,24 @@
+FEEDBACK:
+
+Overall, well done this quarter!
+
+
+Excellent description of findings in GraphsandCommentation.pdf file.
+
+Quicksort does not perform well with small array sizes. Recall that 
+   calculating the median of three also has high overhead. 
+ 
+   Did you try taking a closer look at your results when filtering out 
+   the outlier runtime for array size of 20000?
+   
+	Yes, the oscillation of run times is most likely due to background applications, 
+	processes etc. For example, a spike could be due to GC running in the background. 
+	Perhaps a Java profiler (such as JProfiler) would help solve the mystery. 
+
+   
+   
++1 Well done in taking the average of three runs for each combination
+   of recursion limit and array size!
+   
+-Bita.
+
